@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  background-color: #D3C7E6;
+}
+
 img {
   height: 300px; 
   width: auto; 
