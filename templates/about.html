@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans" />
 </head>
-<body>
+<body class="container">
     <h1>Nakeeba Bowes</h1>
     <p>
         I am a pending Web Developer and Creative Writer. I am a 23 years old
         Jamaican. I like to read, write, code and listen to music. Currently,
-        I am a part-time customer representative for Bizcentre section at
-        Innovative Systems Limited in Sovereign Centre.
+        I am a part-time customer representative in the Bizcentre department 
+        (printery) at Innovative Systems Limited in Sovereign Centre.
     </p>
+
+    <p> My favourite flowers are cosmos.</p>
+    <img src="{{ url_for('static', filename='../static/cosmos_unsplash.jpg') }}" />
 </body>
 </html>
